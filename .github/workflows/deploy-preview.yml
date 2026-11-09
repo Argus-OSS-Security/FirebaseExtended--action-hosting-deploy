@@ -14,7 +14,8 @@
 
 name: Deploy Preview
 
-on: pull_request
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on: pull_request
 
 jobs:
   preview:

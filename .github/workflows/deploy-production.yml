@@ -1,10 +1,11 @@
 name: Deploy Production
 
-on:
-  push:
-    branches:
-      - main
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   push:
+#     branches:
+#       - main
+# 
 jobs:
   deploy_website:
     runs-on: ubuntu-latest
